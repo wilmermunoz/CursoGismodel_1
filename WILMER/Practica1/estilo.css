@@ -1,0 +1,11 @@
+#id_1{
+    font-size: 34px;
+}
+
+.clase1{
+    color: #001fcc;
+    border: 2px solid red;
+}
+.boton4:hover{
+    cursor: pointer;
+}
