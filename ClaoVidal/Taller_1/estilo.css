@@ -1,0 +1,11 @@
+#id_1 {
+    font-size: 38px;
+}
+.clase_1{
+    color: chartreuse;
+    border: 2px solid red;
+    background: yellow;
+}
+.boton4:hover{
+    cursor: pointer;
+}
