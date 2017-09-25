@@ -1,0 +1,15 @@
+#id_1{
+    font-size: 34px;
+    color: green;
+
+}
+
+.Clase1{
+     font-size: 44px;
+    color: indianred;
+    border: 2px solid red;
+}
+
+.boton4:hover{
+    cursor:pointer;
+}
