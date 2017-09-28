@@ -1,3 +1,4 @@
+/*
 var estado=0;
 var resultado=0;
 
@@ -50,9 +51,6 @@ else{
     $("#entrada2").val(entrada2);
 }
 
-
-
-
 } );
 
 
@@ -70,15 +68,30 @@ $("#igual").on('click'),function(){
 
     var ent1 = Number($("#entrada1").val());
     var ent2 = Number($("#entrada2").val());
+    var result;
     if(operador== '+'){
         result=ent1+ent2
     }
+    else if(operador== '+'){
+        result=ent1+ent2
+    }
+    else if(operador== '-'){
+        result=ent1-ent2
+    }
+    else if(operador== '*'){
+        result=ent1*ent2
+    }
+    else if(operador== '÷'){
+        result=ent1/ent2
+    }
+
    $("#resultado").text(":"+result)  ;
 
 }
+*/
 
-
-
+var mi_obj = {0:[1,2,3], 1:[4,5,6]};
+console.log(mi_obj);
 
 
 
