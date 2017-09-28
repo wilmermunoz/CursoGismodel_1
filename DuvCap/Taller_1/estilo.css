@@ -1,0 +1,10 @@
+#id_1{
+    background: #e5d40f;
+    color: azure;
+    font-size: 30px;
+    border:3px solid;
+    text-align: center;
+}
+.boton4:hover{
+    cursor: pointer;
+}
