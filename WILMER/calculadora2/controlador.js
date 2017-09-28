@@ -1,11 +1,11 @@
-
-
-for(var i=9; i>=0; i--){
+var my_obj={};
+for(var i=0; i<=9; i++){
     var mi_html='<button id="num_'+i+'" class="numerico" valor="'+i+'">'+i+'</button>';
 
     //console.log(mi_html);
 
-    if(i%3 ==0){
+    if((i-1)%3 ==0){
+        my_obj.push('hola');
         $("#cajanumeros").append("<br>");
     }
 
@@ -61,7 +61,7 @@ $("#igual").on('click',function(){
     $("#entrada1").val("");
     $("#entrada2").val("");
 })
-
+/*
 var mi_obj={
     0:{
         1:['true','false'],
@@ -70,4 +70,4 @@ var mi_obj={
     }
 };
 console.log(mi_obj);
-
+*/
