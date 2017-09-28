@@ -1,5 +1,5 @@
 
-$("#id_1").text('   ');
+$("#id_1").text(' Manuel y papa ');
 $(".Clase1").text(' mi nueva clase  ');
 
 $(".Clase2").css("color", "red");
