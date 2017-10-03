@@ -8,7 +8,7 @@ git add -A && git commit -m "Mi comentario"
 git push
 ```
 2. Construcción y Plugins (Apache Cordova)
-2.1. Crear proyecto Cordova
+ 2.1. Crear proyecto Cordova
 ``` bash
 cordova create app id.unico.app MiApp
 ```
