@@ -21,7 +21,7 @@ cordova platform add android
 ``` bash
 cordova plugin add cordova-plugin-geolocation
 ```
-2.4. Agregar Construcción (Android)
+2.4. Construcción (Android)
 ``` bash
 cordova build android
 ```
