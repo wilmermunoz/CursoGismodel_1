@@ -1,5 +1,7 @@
 //  Funciones de calculadora
-init()
+
+init();
+
 function init(){
     // Variables
     var resultado = document.getElementById("resultado");
