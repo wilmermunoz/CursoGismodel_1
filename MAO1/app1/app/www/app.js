@@ -1,5 +1,6 @@
-
-$("#posicion").on('click',function(){
+    document.addEventListener("deviceready", onDeviceReady, false);
+    function onDeviceReady() {
+        $("#posicion").on('click',function(){
 
              var onSuccess = function(position) {
                $("#lat").val(position.coords.latitude);
@@ -14,4 +15,8 @@ $("#posicion").on('click',function(){
  
  navigator.geolocation.getCurrentPosition(onSuccess, onError);
 
-}
+});
+    }
+
+
+

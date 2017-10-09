@@ -1,23 +1,22 @@
     document.addEventListener("deviceready", onDeviceReady, false);
     function onDeviceReady() {
-        
-        
-        
-           var onSuccess = function(position) {
-               $(".respuestagps").append(position.coords.latitude);
-               $(".respuestagps").append(position.coords.longitude);
-               $(".respuestagps").append(position.coords.altitude);
-               
-        
-               
-    };
- 
-    // onError Callback receives a PositionError object 
-    // 
-    function onError(error) {
-        alert('code: '    + error.code    + '\n' +
+        $("#posicion").on('click',function(){
+
+             var onSuccess = function(position) {
+               $("#lat").val(position.coords.latitude);
+               $("#lng").val(position.coords.longitude);
+               $("#alt").val(position.coords.altitude);
+        //     console.log(#lat)
+      };
+         function onError(error) {
+         alert('code: '    + error.code    + '\n' +
               'message: ' + error.message + '\n');
     }
  
-      navigator.geolocation.getCurrentPosition(onSuccess, onError);
+ navigator.geolocation.getCurrentPosition(onSuccess, onError);
+
+});
     }
+
+
+
