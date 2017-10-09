@@ -12,6 +12,9 @@
         },
         "cordova-plugin-geolocation": {
             "PACKAGE_NAME": "gismodel.mao.app1"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "gismodel.mao.app1"
         }
     },
     "dependent_plugins": {
