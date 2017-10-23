@@ -19,7 +19,7 @@ echo ++++++++++++++++++++++++++++++++++++++++++++++++++
 echo.
 SET /P arg1= .  Definir comentario :
 git add .
-git commit -a -m %arg1%
+git commit -a -m "%arg1%"
 echo.
 echo ++++++++++++++++++++++++++++++++++++++++++++++++++
 echo ++++++++++++++++++++++ push ++++++++++++++++++++++
