@@ -1,0 +1,18 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-sqlite": {
+            "PACKAGE_NAME": "claudia.vidal.TallerSQL"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "claudia.vidal.TallerSQL"
+        }
+    },
+    "dependent_plugins": {}
+}
